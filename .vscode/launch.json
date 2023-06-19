@@ -10,6 +10,13 @@
             "name": "Debug on Helix",
             "url": "http://localhost:3000",
             "webRoot": "${workspaceFolder}"
-        }
+        },
+        {
+          "type": "chrome",
+          "request": "launch",
+          "name": "Debug Consumer",
+          "url": "http://localhost:6456",
+          "webRoot": "${workspaceFolder}"
+        },
     ]
 }
